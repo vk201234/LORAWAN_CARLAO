@@ -1,0 +1,6 @@
+{
+    "gateway_id": "lorawan2007",
+    "gateway_port": 1700,
+    "ttn_ip": "13.238.174.71",
+    "ttn_port": 1700
+}
