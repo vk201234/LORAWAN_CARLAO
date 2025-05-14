@@ -1,0 +1,18 @@
+[
+    {
+        "devEUI": "0011223344556677",
+        "appEUI": "7766554433221100",
+        "appKey": "2B7E151628AED2A6ABF7158809CF4F3C",
+        "mode": "OTAA",
+        "gateway_ip": "127.0.0.1",  
+        "gateway_port": 1700        
+    },
+    {
+        "devEUI": "AABBCCDDEEFF0011",
+        "appEUI": "1100FFEEDDCCBBAA",
+        "appKey": "3C4F0988157FBA6A2816157E2B",
+        "mode": "ABP",
+        "gateway_ip": "127.0.0.1",  
+        "gateway_port": 1700         
+    }
+]
