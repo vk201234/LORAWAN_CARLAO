@@ -1,0 +1,12 @@
+{
+    "name": "LoRaWAN Emulator",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu", // Imagem base do container
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {} // Ferramentas comuns
+    },
+    "runArgs": [
+        "--cap-add=NET_ADMIN", // Permite administração de rede
+        "--sysctl", "net.ipv4.ping_group_range=0 2147483647" // Permite ICMP (ping)
+    ],
+    "postCreateCommand": "sudo apt update && sudo apt install -y build-essential libmbedtls-dev libcjson-dev"
+}
